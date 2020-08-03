@@ -7,7 +7,6 @@ time=0
 while a==b or b==c or c==a:
     num=random.randint(100,999)
     a=num//100
-    b=num//10-10*a
     c=num%10
     s=[a,b,c]
 ans=0
