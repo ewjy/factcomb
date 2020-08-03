@@ -7,7 +7,6 @@ class test:
     def init(self,hour,minute,second):
         self.hour = int(hour)
         self.second = int(second)
-        self.minute = int(minute)
     def isvalidtime(self,t_start,t_last):
         if (t_start.hour == t_last.hour):#先判斷測資 是同一個小時 or not
             if self.hour == t_start.hour:
